@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}.weather-app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #b3e5fc; /* Pale sky blue */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.location-button {
+  background: none;
+  border: none;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black; /* All text is black */
+}
+
+.location-button:focus {
+  outline: none;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Add some spacing between buttons and temperature */
+}
+
+.temperature-display {
+  font-size: 64px;
+  color: black; /* Ensure temperature is black */
+  position: relative;
+  text-align: center; /* Center align temperature */
+}
+
+
+
+
+.rain-alert-box {
+  font-size: 16px;
+  background-color: red; /* Red background for rain alert */
+  color: white; /* Text inside rain box should be white */
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: relative; /* Make sure it's positioned below the temperature */
+  margin-top: 20px; /* Added margin to avoid overlap */
+}
+
+.nav-button {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: black; /* Ensure nav buttons are black */
+}
+
+.temperature-trend {
+  margin-top: 20px;
+  font-size: 18px;
+  color: black; /* Ensure trend text is black */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e3f2fd; /* Sky blue background */
+  font-family: 'Roboto', sans-serif; /* Ensuring consistent font styling */
+}
